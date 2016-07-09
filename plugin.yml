@@ -1,0 +1,25 @@
+name: Panic_Tiles
+main:
+version: 1.0
+author: iAxyy
+depend: [Essentials, Worldedit]
+softdepend: [EssentialsChat, WorldGuard, EssentialsProtect]
+
+permissions:
+  PanicTiles.*:
+    [you are able to use all the commands on this plugin]
+  PanicTiles.ArenaName:
+    [you are able to define the name of the arena]
+  PanicTiles.ArenaLoc1:
+    [you are able to lower corner of an arena]
+    
+commands:
+ ArenaName:
+   [defines the name of the arena]
+ ArenaLoc1:
+   [defines the lower corner of an arena]
+ ArenaLoc2:
+   [defines the rest of the arena in a cube fashion]
+ ArenaSpecLoc1:
+   [defines the lower corner of a spectator box]
+ 
